@@ -1,0 +1,287 @@
+body{
+    background-color: #222831;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+nav ul{
+    margin-left: 200px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 32px;
+    color: white;
+    font-size: 18px;
+}
+.fa-solid{
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 90px;
+}
+/* Hero Section */
+.hero{
+    background-image: url(/IMG/Group\ 2360.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.second-section{
+    background-color: #222831;
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+.email-section{
+    margin-left: 40px;
+    padding-top: 90px;
+}
+h1{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}
+.email-input{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 160px;
+}
+.email-button{
+    background-color: #00358A;
+    color: white;
+    position: relative;
+    padding: 25px 50px 30px 50px;
+    top: -70px; 
+    left: 300px;
+    border: none;
+    
+}
+.img-section{
+    display: flex;
+    
+}
+.first-img{
+    padding-top: 40px;
+    padding-right: 30px;
+   
+}
+.second-img{
+    object-fit: cover;
+    left: 40px;
+}
+.third-img{
+    object-fit: cover;
+    padding-right: 20px;
+}
+/* Third Section */
+.third-section{
+    display: flex;
+    background-color: #091A2F;
+    color: white;
+}
+.section-three-right{
+    padding-top: 80px;
+    margin-left: 100px;
+    padding-bottom: 40px;
+
+}
+.section-three-h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.training{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.training-inner-section{
+    margin-right: 150px;
+}
+.fourth-section{
+    background:#000000;
+    width: 100%;
+    height: 800px;
+    color: white;
+    margin-top: -19px;
+    padding-bottom: 20px;
+}
+.fourth-section-h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+.square-container{
+    padding-top: 80px;
+}
+.square-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 540px;
+    height: 120px;
+    margin-bottom: 10px;
+    margin-right: 19px;
+}
+
+/* TheAcademy section */
+.the-academy-section{
+    padding-bottom: 0px;
+}
+.the-academy-h2{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+div.the-academy{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+.course-module-button{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #0041A8;
+    border: none;
+    border-radius: 20px;
+    width: 314px;
+    height: 87px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* Testimonial Section */
+.testimonial-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 300px;
+    padding-right: 80px;
+    padding-left: 50px;
+    padding-bottom: 150px;
+}
+.testimonial-left-text-section{
+    margin-top: -50px;
+}
+.testimonial-right-video-section{
+    display: flex;
+    gap: 40px;
+}
+
+/* Courses Section */
+.topcourse-h2{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.topcourse-text{
+    color:white;
+    font-size: 18px;
+    text-align: center;
+}
+.top-course-row{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    padding-top: 90px;
+}
+.top-course-col{
+    align-items: center;
+    justify-content: center;
+    background-color: #393E46;
+    width: 350px;
+    height: 200px;
+}
+.col-h5{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.col-text{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.direction-arrow{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    margin-top: 300px;
+}
+/* Footer */
+footer{
+    background-color:  #000000;
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    color: #FFFFFF;
+    padding-bottom: 500px;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px 20px 100px;
+}
+.footer-logo{
+    width: 270px;
+    padding-bottom: 20px;
+}
+.footer-h3{
+    margin-left: 35px;
+}
+.fa-brands{
+  margin-right: 20px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+footer ul li{
+    list-style: none;
+    padding-bottom: 20px;
+    
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-email{
+    display: flex;
+    float: right;
+    margin-top: 100px;
+    margin-right: 60px;
+
+}
+.footer-email-input{
+    width: 250px;
+    height: 60px;
+}
+.footer-email-button{
+    background-color: #00358A;
+    color: white;
+    position: relative;
+    padding: 23px 45px 23px 45px;
+    border: none;
+}
